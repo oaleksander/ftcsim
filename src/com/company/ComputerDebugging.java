@@ -1,6 +1,7 @@
 package com.company;
 
 import java.text.DecimalFormat;
+import java.util.Locale;
 
 public class ComputerDebugging {
     //this is what actually sends our messages
@@ -9,7 +10,15 @@ public class ComputerDebugging {
     private static StringBuilder messageBuilder = new StringBuilder();
 
     //use this to format decimals
-    private static DecimalFormat df = new DecimalFormat("#.00");
+    private static DecimalFormat df1 = new DecimalFormat("#.00");
+    private static final StringFormatter df = new StringFormatter();
+    private static class StringFormatter
+    {
+        static String format(double myDouble)
+        {
+            return String.format(Locale.ROOT,"%1.2f", myDouble);
+        }
+    }
 
     /**
      * Initializes udp server and starts it's thread
