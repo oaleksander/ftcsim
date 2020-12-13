@@ -65,8 +65,11 @@ public class Vector2D implements Comparable {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Vector2D vector2D = (Vector2D) o;
-        return MathUtil.approxEquals(vector2D.x, x) &&
-                MathUtil.approxEquals(vector2D.y, y);
+        boolean toReturn = (MathUtil.approxEquals(vector2D.x, x) &&
+                MathUtil.approxEquals(vector2D.y, y));
+                System.out.println("WILL RETURN " + toReturn);
+        return toReturn;
+
     }
 
     @Override

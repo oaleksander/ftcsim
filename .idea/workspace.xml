@@ -20,43 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06f710b7-470c-4d99-91ff-deca9af1f0aa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/qualcomm/robotcore/util/ElapsedTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qualcomm/robotcore/util/Range.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/math/MathUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/math/PIDController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/math/Pose2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/math/Vector2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/math/Vector3D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/robot/MecanumDrivetrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/robot/Movement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/robot/ThreeWheelOdometry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/robot/WoENrobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/superclasses/Drivetrain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/superclasses/MotionTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/superclasses/Odometry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/superclasses/RobotModule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/treamcode/MyOpMode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/treamcode/keyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PurePursuitTutorial/Main/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/RobotUtilities/MovementVars.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PurePursuitTutorial/RobotUtilities/MovementVars.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/RobotUtilities/SpeedOmeter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PurePursuitTutorial/RobotUtilities/SpeedOmeter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/com/company/ComputerDebugging.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PurePursuitTutorial/com/company/ComputerDebugging.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/com/company/FloatPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PurePursuitTutorial/com/company/FloatPoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/com/company/Range.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PurePursuitTutorial/com/company/Range.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/com/company/Robot.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PurePursuitTutorial/com/company/Robot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/com/company/UdpServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PurePursuitTutorial/com/company/UdpServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/org/opencv/core/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PurePursuitTutorial/org/opencv/core/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/treamcode/CurvePoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/treamcode/MathFunctions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/org/firstinspires/ftc/teamcode/math/Vector2D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PurePursuitTutorial/org/firstinspires/ftc/teamcode/math/Vector2D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/org/firstinspires/ftc/teamcode/robot/Movement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PurePursuitTutorial/org/firstinspires/ftc/teamcode/robot/Movement.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/treamcode/MyOpMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PurePursuitTutorial/treamcode/MyOpMode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/treamcode/OpMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PurePursuitTutorial/treamcode/OpMode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/treamcode/PathPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PurePursuitTutorial/treamcode/RobotMovement.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RobotUtilities/SpeedOmeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RobotUtilities/SpeedOmeter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ComputerDebugging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ComputerDebugging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Robot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Robot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/math/Vector2D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/math/Vector2D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/robot/Movement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/robot/Movement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/superclasses/MotionTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/firstinspires/ftc/teamcode/superclasses/MotionTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/treamcode/MyOpMode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/treamcode/MyOpMode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../debugclient" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -155,42 +126,42 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="278" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607690664705" />
-    <state width="1876" height="243" key="GridCell.Tab.0.bottom" timestamp="1607772685048">
+    <state width="1876" height="243" key="GridCell.Tab.0.bottom" timestamp="1607824731116">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607772685048" />
+    <state width="1876" height="243" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607824731116" />
     <state width="1876" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606850145051" />
-    <state width="1876" height="243" key="GridCell.Tab.0.center" timestamp="1607772685048">
+    <state width="1876" height="243" key="GridCell.Tab.0.center" timestamp="1607824731116">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="243" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607772685048" />
+    <state width="1876" height="243" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607824731116" />
     <state width="1876" height="239" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606850145050" />
-    <state width="1876" height="243" key="GridCell.Tab.0.left" timestamp="1607772685048">
+    <state width="1876" height="243" key="GridCell.Tab.0.left" timestamp="1607824731116">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="243" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607772685048" />
+    <state width="1876" height="243" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607824731116" />
     <state width="1876" height="239" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606850145050" />
-    <state width="1876" height="243" key="GridCell.Tab.0.right" timestamp="1607772685048">
+    <state width="1876" height="243" key="GridCell.Tab.0.right" timestamp="1607824731116">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="243" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607772685048" />
+    <state width="1876" height="243" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607824731116" />
     <state width="1876" height="239" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1606850145050" />
-    <state width="1876" height="346" key="GridCell.Tab.1.bottom" timestamp="1607651845026">
+    <state width="1876" height="346" key="GridCell.Tab.1.bottom" timestamp="1607822941038">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607651845026" />
-    <state width="1876" height="346" key="GridCell.Tab.1.center" timestamp="1607651845025">
+    <state width="1876" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607822941038" />
+    <state width="1876" height="346" key="GridCell.Tab.1.center" timestamp="1607822941037">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="346" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607651845025" />
-    <state width="1876" height="346" key="GridCell.Tab.1.left" timestamp="1607651845025">
+    <state width="1876" height="346" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607822941037" />
+    <state width="1876" height="346" key="GridCell.Tab.1.left" timestamp="1607822941037">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="346" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607651845025" />
-    <state width="1876" height="346" key="GridCell.Tab.1.right" timestamp="1607651845026">
+    <state width="1876" height="346" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607822941037" />
+    <state width="1876" height="346" key="GridCell.Tab.1.right" timestamp="1607822941037">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1876" height="346" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607651845026" />
+    <state width="1876" height="346" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1607822941037" />
     <state x="440" y="98" key="SettingsEditor" timestamp="1607772680059">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -212,5 +183,8 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tutorialseries$Main.ic" NAME="Main Coverage Results" MODIFIED="1607822199771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

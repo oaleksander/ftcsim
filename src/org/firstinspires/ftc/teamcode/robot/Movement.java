@@ -13,6 +13,8 @@ import org.firstinspires.ftc.teamcode.superclasses.Drivetrain;
 import org.firstinspires.ftc.teamcode.superclasses.Odometry;
 import org.firstinspires.ftc.teamcode.superclasses.RobotModule;
 
+import java.awt.geom.Arc2D;
+
 import static java.lang.Math.abs;
 import static java.lang.Math.cos;
 import static java.lang.Math.signum;
@@ -41,6 +43,10 @@ public class Movement implements RobotModule {
     public boolean Pos(Pose2D target)
     {
 
+
+        if(Double.isNaN(target.x)) target.x = odometry.getRobotCoordinates().x;
+        if(Double.isNaN(target.y)) target.y = odometry.getRobotCoordinates().y;
+        if(Double.isNaN(target.heading)) target.heading = odometry.getRobotCoordinates().heading;
         Pose2D error = getError(target);
         if (abs(error.heading) >= minError_angle || error.radius() >= minError_distance) {
             approachPosition(error, error.radius() * kP_distance, error.heading * kP_angle);
@@ -78,8 +84,11 @@ public class Movement implements RobotModule {
 
     public boolean getPurePursuitPoint(Pose2D robotPosition, Vector2D originPoint, Vector2D targetPoint, double lookaheadRadius)
     {
+
         ComputerDebugging.sendLine(new FloatPoint(originPoint.x+356.0/2,originPoint.y+356.0/2),new FloatPoint(targetPoint.x+356.0/2,targetPoint.y+356.0/2));
-        if(originPoint.equals(targetPoint))
+
+
+        if(originPoint.x == targetPoint.x && originPoint.y == targetPoint.y)
             return true;
         double a = originPoint.y-targetPoint.y;
         double b = targetPoint.x-originPoint.x;
@@ -96,17 +105,22 @@ public class Movement implements RobotModule {
 
         if(abs(angleWrap(angle-robotPosition.heading))>Math.PI/2){angle += Math.PI;}
 
+
+
         ComputerDebugging.sendKeyPoint(new FloatPoint(lookAheadPoint.x+356.0/2,lookAheadPoint.y+356.0/2));
 
-        Pose2D error = getError(new Pose2D(lookAheadPoint,angle));
-        if(targetPoint.minus(originPoint).radius() <= lookAheadPoint.minus(originPoint).radius())
+        Pose2D error = getError(new Pose2D(lookAheadPoint,lookAheadPoint.minus(robotPosition).acot()));
+        if(abs(angleWrap(error.heading))>Math.PI/2){error.heading = angleWrap(error.heading + Math.PI);}
+      if(targetPoint.minus(originPoint).radius() <= lookAheadPoint.minus(originPoint).radius())
         {
+            System.out.println("this");
         error = getError(new Pose2D(targetPoint,angle));
             if(error.radius() < lookaheadRadius/2)
                 return true;
         approachPosition(error, error.radius() * kP_distance, error.heading * kP_angle);
         }
         else {
+          System.out.println("that");
             approachPosition(error, 1, error.heading * kP_angle);
         }
         return false;
@@ -114,7 +128,7 @@ public class Movement implements RobotModule {
 
     public void holonomicMoveFC(Vector3D move) {
         Vector2D coordinates = new Vector2D(move.x, move.y).rotatedCW(-odometry.getRobotCoordinates().heading);
-        drivetrain.setRobotVelocity(coordinates.y, coordinates.x*0.5, move.z*10);
+        drivetrain.setRobotVelocity(coordinates.y*0.9, coordinates.x*0.25, move.z*9);
     }
 
     public void holonomicMovePolar(double heading, double speed, double turn) {

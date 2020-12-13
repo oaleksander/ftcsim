@@ -12,6 +12,10 @@ public class MotionTask extends Pose2D {
     }
 
     public MotionTask(Pose2D pose) {super (pose.x, pose.y, pose.heading);}
+    public MotionTask(Pose2D pose, ActionOnCompletion actionOncompletion) {
+        super (pose.x, pose.y, pose.heading);
+        this.actionOnConpletion = actionOncompletion;
+    }
 
     public MotionTask(double x, double y, double heading){
         super(x,y,heading);
